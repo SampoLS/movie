@@ -21,7 +21,7 @@ export default function MovieDetail() {
     return () => {
       dispatch(removeSelectedMovieOrShow());
     };
-  }, [dispatch]);
+  }, [dispatch, imdbID]);
 
   return (
     <div className="movie-section">
